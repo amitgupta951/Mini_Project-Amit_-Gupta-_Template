@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mini-Project</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body style="height: 2000px;">
+	<header>
+		<div id="logo">BAKERS<span id="logo-s">STREET</span></div>
+		<ul>
+			<li><a href="">LOGIN</a></li>
+			<li><a href="">CONTACTS</a></li>
+			<li><a href="">DELIVERY</a></li>
+			<li><a href="">MENU</a></li>
+			<li><a href="">ABOUT</a></li>
+			<li><a href="">HOME</a></li>
+
+		</ul>
+	</header>
+	<div class="slider">
+		<!-- fade css -->
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>BEST BROWN BREAD</h1>
+				<p>Please Login for More!</p>
+			</div>
+			<img src="image1.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>TOP TEN GEEKY CUPCAKE</h1>
+				<p>Order Asap To Free <br> Home Delivery.</p>
+			</div>
+			<img src="image2.jpg" style="width: 100%; height: 100%;">
+		</div>
+
+		<div class="myslide fade">
+			<div class="txt">
+				<h1>BEST COOKIES</h1>
+				<p>We make cookies for you <br> on order.</p>
+			</div>
+			<img src="image3.jpg" style="width: 100%; height: 100%;">
+		</div>
+		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		<div class="dotsbox" style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+		<!-- /onclick js -->
+	</div>
+	<div class="login-popup">
+		<div class="box">
+			
+			<div class="form">
+				<div class="close">&times;</div>
+				<h3 id="ww">WELCOME TO BAKERY</h3>
+				<form>
+					<div class="form-group">
+						<input type="text" placeholder="Name" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Email" class="form-control">
+					</div>
+					<div class="form-group">
+						<input type="text" placeholder="Mobile No." class="form-control">
+
+					</div>
+					<button type="button" class="btn">Log In</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="btn"> <a href="" id="b1">FEATURE 1</a>
+		<a href="" id="b2">FEATURE 2</a>
+		<a href="" id="b3">FEATURE 3</a>
+	</div>
+	<div id="kaam">
+		<div id="main">
+			<div id="up">
+				<div id="head"> </div>
+				<br>
+				<h3>Enjoy healthy</h3>
+				<H6>WHOLE GRAINS</H6>
+				<br>
+				<div id="para">we have been using long, tradional methods of baking to create breadsthat are truly
+					one-of- a-kind, whoesome, and delicious.</div>
+			</div>
+
+			<div id="mid">
+				<div id="wer">
+					<h5></h5>
+				</div>
+				<br>
+				<h3>100% Delicious</h3>
+				<H6>GOODIES</H6>
+				<br>
+				<div>We bake yummy cookies, scones, teacakes, brownies, cinnamon buns, savannah bars, and so much more!
+				</div>
+			</div>
+			<div id="bottom">
+				<div id="last1">
+					<h4> </h4>
+				</div>
+				<br>
+				<h3>Wholesome</h3>
+				<H6>PIES</H6>
+				<br>
+				<div id="last2">Our wholesome pies are layered with premium, nutrious ingredients between fresh baked
+					biscuit. </div>
+			</div>
+		</div>
+	</div>
+
+	<div id="yyyy">
+		<div id="footers">
+
+			<div id="con">
+				<h3>CONTACT US</h3>
+			</div>
+
+		</div>
+		<div id="contact">
+			<div id="w">
+				<div id="k">
+					<h2>Send Us a Message</h2>
+					<input type="text" class="field" placeholder="Your Name">
+					<input type="text" class="field" placeholder="E-mail">
+					<textarea placeholder=" Your Message" class="field"></textarea>
+					<button class="btn">Send</button>
+				</div>
+			</div>
+			<div id="e">
+				<h3>OUR CONTACTS</h3> <br> <br>
+				<p>Great Harvest of North <br> <br> Charlotte, <br> <br> <br> 1985 East Arbors Drive #390. <br> <br>
+					Charlotte. NC
+					28055 <br> <br> <br> (704)-971-7280</p>
+				<div id="l">&copy; @2022 bakery street. all rights are reseverd</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+
+	<script src="index.js"></script>
+</body>
+
+</html>
